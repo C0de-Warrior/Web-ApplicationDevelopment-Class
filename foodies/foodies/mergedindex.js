@@ -87,7 +87,7 @@ document.head.appendChild(style);
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', async () => {
         try {
-            const registration = await navigator.serviceWorker.register('/sw.js');
+            const registration = await navigator.serviceWorker.register('/mergedsw.js');
             NotificationSystem.show('Service Worker registered successfully', 'success');
             console.log('Service Worker registered:', registration.scope);
         } catch (error) {
