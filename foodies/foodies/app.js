@@ -1,4 +1,4 @@
-// Database configuration
+// Database configuration//
 const DB_NAME = 'offlineDB';
 const DB_VERSION = 1;
 const STORE_NAME = 'entries';
