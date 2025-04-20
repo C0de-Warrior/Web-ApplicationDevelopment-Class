@@ -12,6 +12,32 @@ if ('serviceWorker' in navigator) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // IndexedDB setup
 //const dbPromise = idb.openDB("zomato-db", 1, {
  //   upgrade(db) {
